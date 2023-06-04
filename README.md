@@ -7,6 +7,10 @@ I'm currently pursuing my doctoral thesis for [IRCAD France](https://www.ircad.f
 |--------|------------|
 | ![Erellu's github stats](https://github-readme-stats.vercel.app/api?username=Erellu&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true) | ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Erellu&theme=tokyonight) |
 
+### Contact
+
+`erwanduhamel[__at-sign__]outlook[**__dot__**]com`
+
 ### About me
 
 I've graduated from [INSA Strasbourg](https://www.insa-strasbourg.fr/en/) (France) in 2021 where I got a Master degree in electrical engineering (:fr:: **Diplôme d'Ingénieur ~ _Grade de Master_ ~ Spécialité Génie Électrique**).
