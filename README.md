@@ -13,8 +13,8 @@ I'm currently pursuing my doctoral thesis for [IRCAD France](https://www.ircad.f
 
 ### About me
 
-I've graduated from [INSA Strasbourg](https://www.insa-strasbourg.fr/en/) (France) in 2021 where I got a Master degree in electrical engineering (:fr:: **Diplôme d'Ingénieur ~ _Grade de Master_ ~ Spécialité Génie Électrique**).
-I also graduated from [Master IRIV](https://www.master-iriv.fr/accueil) (France) with a second Master Degree in robotics (:fr:: **Master de Sciences, technologies, santé, Mention Optique, image vision multimédia, _mention Bien_**).
+I've graduated from [INSA Strasbourg](https://www.insa-strasbourg.fr/en/) (France) in 2021 where I got a Master degree in electrical engineering ( :fr: : **Diplôme d'Ingénieur ~ _Grade de Master_ ~ Spécialité Génie Électrique**).
+I also graduated from [Master IRIV](https://www.master-iriv.fr/accueil) (France) with a second Master Degree in robotics ( :fr: : **Master de Sciences, technologies, santé, Mention Optique, image vision multimédia, _mention Bien_**).
 
 I spend a lot of my free time making more a less clever things in Vulkan and convincing my friends and colleagues to join me in this exercise.
 
