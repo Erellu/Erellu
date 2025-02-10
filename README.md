@@ -1,7 +1,6 @@
 ### Hello there!
 
 I work in computer graphics on medical data visualisation.
-I'm currently pursuing my doctoral thesis for [IRCAD France](https://www.ircad.fr/) (since October 2021).
 
 | Topics | Languages |
 |--------|------------|
@@ -12,6 +11,14 @@ I'm currently pursuing my doctoral thesis for [IRCAD France](https://www.ircad.f
 `erwanduhamel[__at-sign__]outlook[**__dot__**]com`
 
 ### About me
+
+I've defended by doctoral thesis in December 2024, intitled :
+
+> **Expressive direct volume rendering for interactive visualisation of medical data: application to ultrasound imaging**
+>
+> :fr: : Rendu volumique expressif pour la visualisation interactive de données médicales : application à l’imagerie échographique
+
+_Under the supervision of [Pr. Jean-Michel Dischler](https://dpt-info.u-strasbg.fr/~dischler/) (ICube, Strasbourg), under the co-supervision of [Dr. Flavien Bridault](https://github.com/fbridault) (IRCAD France, Strasbourg) and [Dr. Jonathan Sarton](https://josarton.netlify.app/) (ICube, Strasbourg)._
 
 I've graduated from [INSA Strasbourg](https://www.insa-strasbourg.fr/en/) (France) in 2021 where I got a Master degree in electrical engineering ( :fr: : **Diplôme d'Ingénieur ~ _Grade de Master_ ~ Spécialité Génie Électrique**).
 I also graduated from [Master IRIV](https://www.master-iriv.fr/accueil) (France) with a second Master Degree in robotics ( :fr: : **Master de Sciences, technologies, santé, Mention Optique, image vision multimédia, _mention Bien_**).
