@@ -1,4 +1,6 @@
-### Hello there!
+### Hello, there![^1]
+
+[^1]: I know what you want to say. But my first name has an extra `r` after the `E`.
 
 I work in computer graphics on medical data visualisation.
 
