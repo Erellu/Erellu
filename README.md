@@ -6,6 +6,12 @@ I work in computer graphics on medical data visualisation.
 |--------|------------|
 | ![Erellu's github stats](https://github-readme-stats.vercel.app/api?username=Erellu&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true) | ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Erellu&theme=tokyonight) |
 
+### Repository highlight
+
+| Name                                         | Description                                                                                        | Language(s)          |
+| -------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------- |
+| [`fubuki`](https://github.com/Erellu/fubuki) | Idiomatic C++23 cross-platform composable abstraction framework for Vulkan and low-level graphics. | C++23, CMake, Python |
+
 ### Contact
 
 `erwanduhamel[__at-sign__]outlook[**__dot__**]com`
