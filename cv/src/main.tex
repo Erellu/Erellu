@@ -1,0 +1,243 @@
+% a mashup of hipstercv, friggeri and twenty cv
+% https://www.latextemplates.com/template/twenty-seconds-resumecv
+% https://www.latextemplates.com/template/friggeri-resume-cv
+
+\documentclass[lighthipster]{simplehipstercv}
+% available options are: darkhipster, lighthipster, pastel, allblack, grey, verylight, withoutsidebar
+% withoutsidebar
+\usepackage[utf8]{inputenc}
+\usepackage[default]{raleway}
+\usepackage[margin=1cm, a4paper]{geometry}
+\usepackage{worldflags}
+
+%------------------------------------------------------------------ Variablen
+
+\newlength{\rightcolwidth}
+\newlength{\leftcolwidth}
+\setlength{\leftcolwidth}{0.23\textwidth}
+\setlength{\rightcolwidth}{0.75\textwidth}
+
+%------------------------------------------------------------------
+
+\def\docauthor  {Erwan Duhamel}
+\def\email      {erwanduhamel@outlook.com}
+\def\phonenumber{+33651582606}
+
+%------------------------------------------------------------------
+\title{CV - Erwan Duhamel (English)}
+\author{\LaTeX{} Ninja - Edited by Erwan Duhamel}
+\date{August 2024}
+
+\pagestyle{empty}
+
+\begin{document}
+\thispagestyle{empty}
+
+%-------------------------------------------------------------
+
+\section*{}
+\simpleheader{headercolour}{Erwan}{Duhamel}{Software Engineer, Graphics Developer, Freelancer, Ph. D}{white}
+
+%------------------------------------------------
+
+% this has to be here so the paracols starts..
+\subsection*{}
+\vspace{4em}
+
+\setlength{\columnsep}{1.5cm}
+\columnratio{0.23}[0.75]
+\begin{paracol}{2}
+\hbadness5000
+%\backgroundcolor{c[1]}[rgb]{1,1,0.8} % cream yellow for column-1 %\backgroundcolor{g}[rgb]{0.8,1,1} % \backgroundcolor{l}[rgb]{0,0,0.7} % dark blue for left margin
+
+\paracolbackgroundoptions
+
+% 0.9,0.9,0.9 -- 0.8,0.8,0.8
+
+\footnotesize
+{\setasidefontcolour
+% \flushright
+\begin{center}
+    \vspace{-4.3cm}
+    \roundpic{img/me.jpeg}
+\end{center}
+
+\bg{cvgreen}{white}{About me}\\[0.5em]
+{\footnotesize
+Roughly half a decade of experience with C++ software development, I am proficient with C++11 to C++23.
+I have a PhD in Computer Graphics, specialised in real-time direct volume rendering for medical data visualisation.
+I have been maintaining most of the GPU-related facilities in the codebases I have worked on, including both graphics paths and parallel computing paths (CUDA).
+Accustomed to modern software development, Agile and Kanban methodologies, I enjoy working with a team and join efforts on large-scale projects. 
+On my free time, I develop \href{https://github.com/Erellu/fubuki}{\faGithub fubuki}, an open-source C++23 framework for Vulkan and low-level graphics.
+}
+\bigskip
+
+\bg{cvgreen}{white}{Personal} \\[0.5em]
+    Erwan Duhamel
+    
+    Nationality: French 
+    
+    07/07/1998 (27 years old)
+
+\bigskip
+
+\bg{cvgreen}{white}{Areas of specialization} \\[0.5em]
+
+Computer graphics ~•~ C++ ~•~ Real-time graphics ~•~ Image processing ~•~ Parallel computing
+
+\bigskip
+
+\bg{cvgreen}{white}{Technical center of interest}\\[0.5em]
+
+\texttt{Real-time graphics} ~/~ \texttt{Vulkan}
+
+\texttt{Direct Volume Rendering}
+
+\texttt{Modern C++}
+
+\bigskip
+
+I'm passionate about modern low-level real-time graphics and advances in recent C++ Standards, which I follow closely. 
+On my spare time, I'm a cat lover interested in cooking.
+
+\bigskip
+
+\bg{cvgreen}{white}{Interests}\\[0.5em]
+
+\texttt{Dedicated cat-person}
+
+\texttt{Japanese culture \& language}
+
+\texttt{Cooking}
+
+\texttt{Gaming} ~/~ \texttt{Retro-Gaming}
+
+\vspace{1cm}
+
+\infobubble{\scriptsize \faAt}{cvgreen}{white}{\scriptsize \email} \vspace{-0.3cm} \\
+\infobubble{\faGithub}{cvgreen}{white}{\scriptsize  \href{https://github.com/Erellu}{Erellu}} \\
+\infobubble{\faStackOverflow}{cvgreen}{white}{\scriptsize  \href{https://stackoverflow.com/users/11910702/erel}{Erellu}} \\
+\infobubble{\faPhone}{cvgreen}{white}{\scriptsize  \phonenumber} \\
+\infobubble{\faMapMarker}{cvgreen}{white}{\scriptsize Strasbourg, France} \\
+\\
+\begin{center}
+\tiny{\textit{Last updated on: 7th July 2025}}    
+\end{center}
+
+\phantom{turn the page}
+% Keep this comment
+\phantom{turn the page}
+}
+%-----------------------------------------------------------
+\switchcolumn
+
+\small
+\section*{Short Resumé}
+
+\begin{tabular}{r p{0.42\textwidth} c}
+    \vspace{-0.7cm} 
+    \cvevent{2025}{Freelancing}{Independent Developer}{Strasbourg, France \color{cvred}}{}{img/empty.png} \\
+    \vspace{-0.7cm}
+    \cvevent{2021--2024}{IRCAD France}{Researcher, Ph. D curriculum}{Strasbourg, France \color{cvred}}{}{img/empty.png} \\
+    \cvevent{2019--2020}{Chauvin Arnoux GmBH}{Undergraduate Developer}{Sundheim, Germany \color{cvred}}{}{img/empty.png}
+    \vspace{-0.7cm}
+\end{tabular}
+
+\vspace{1em}
+
+\begin{minipage}[t]{0.38\textwidth}
+    \section*{Degrees}
+    \begin{tabular}{r p{0.7\textwidth} c}
+        \vspace{0.3cm}
+        \cvdegree{2024}{Doctoral Thesis / Ph. D}{\tiny Ph. D}{\tiny University of Strasbourg, France \color{headerblue}}{\tiny C++, CUDA, GLSL, Real-time graphics, volume rendering} \\
+        \vspace{0.3cm}
+        \cvdegree{2021}{\footnotesize Electrical engineering}{\tiny Master degree}{\tiny INSA Strasbourg, France \color{headerblue}}{\tiny C++, C, Embdedded systems, Bare-metal programming}\\
+        \vspace{0.3cm}
+        \cvdegree{2021}{\footnotesize Robotics and automatics}{\tiny Master Degree}{\tiny Telecom Physique Strasbourg, France, \color{headerblue}}{\tiny C++, Real-time safety-critical systems, Multi-task systems}\\
+        \vspace{0.3cm}
+        \cvdegree{2019}{\footnotesize Electrical engineering}{\tiny Bachelor of Engineering}{\tiny Strasbourg, France \color{headerblue}}{}
+    \end{tabular}
+    \end{minipage}\hfill
+    \begin{minipage}[t]{0.3\textwidth}
+    \section*{Programming}
+    \begin{tabular}{r @{\hspace{0.5em}}l}
+         \bg{skilllabelcolour}{iconcolour}{C++}    & \barrule{0.65}{0.5em}{cvgreen}  \\
+         \bg{skilllabelcolour}{iconcolour}{CUDA}   & \barrule{0.55}{0.5em}{cvgreen} \\
+         \bg{skilllabelcolour}{iconcolour}{GLSL}   & \barrule{0.5}{0.5em}{cvgreen}  \\
+         \bg{skilllabelcolour}{iconcolour}{CMake}  & \barrule{0.40}{0.5em}{cvpurple} \\
+         \bg{skilllabelcolour}{iconcolour}{Python} & \barrule{0.30}{0.5em}{cvpurple} \\
+    \end{tabular}
+    \section*{Tools}
+    \begin{tabular}{r @{\hspace{0.5em}}l @{\hspace{0.5em}}l}
+         \bg{skilllabelcolour}{iconcolour}{NSight tools} & \bg{skilllabelcolour}{iconcolour}{Git/Lab/Hub}  & \bg{skilllabelcolour}{iconcolour}{\LaTeX} \\
+         \bg{skilllabelcolour}{iconcolour}{clang tools}  & \bg{skilllabelcolour}{iconcolour}{valgrind}     & \bg{skilllabelcolour}{iconcolour}{Md} \\
+    \end{tabular}
+    \section*{Frameworks \& APIs}
+    \begin{tabular}{r @{\hspace{0.5em}}l @{\hspace{0.5em}}l @{\hspace{0.5em}}l}
+         \bg{skilllabelcolour}{iconcolour}{Vulkan}  & \bg{skilllabelcolour}{iconcolour}{glslang} & \bg{skilllabelcolour}{iconcolour}{glm}    & \bg{skilllabelcolour}{iconcolour}{Wayland} \\
+         \bg{skilllabelcolour}{iconcolour}{Qt}      & \bg{skilllabelcolour}{iconcolour}{boost}   & \bg{skilllabelcolour}{iconcolour}{gtest}  & \bg{skilllabelcolour}{iconcolour}{X11} \\
+    \end{tabular}
+\end{minipage}
+
+\vspace{-1cm}
+
+\section*{Curriculum}
+    \begin{tabular}{r p{0.5\textwidth} c}
+        \vspace{-0.4cm}
+        \cvevent{2025}{Freelancing}{Independent Developper}{Strasbourg, France \color{cvred}}
+        {Maintenance of existing code, integration, etc. \newline
+        \scriptsize Development of \href{https://github.com/Erellu/fubuki}{\faGithub fubuki}, open-source idiomatic C++23 cross-platform composable abstraction framework for Vulkan and low-level graphics.
+        }{img/empty.png} \\
+        \vspace{-0.4cm}
+        \cvevent{2021--2024}{IRCAD France}{Researcher, Ph. D Curriculum}{Strasbourg, France \color{cvred}}
+        {Company-hosted Ph. D Thesis. \newline
+        \scriptsize Research topic: Interactive Visualization of 3D Echography Images with Volume Rendering.
+        Developement and integration in the company framework of a new method of direct volume rendering for ultrasound data, and various data-sensitive processing.
+        The work is integrated in the internal framework and in use in several applications actively developped.
+        }{img/ircad.png} \\
+        \vspace{-0.4cm}
+        \cvevent{2019--2020}{Chauvin Arnoux GmbH}{Undergraduate Developper}{Sundheim, Germany  \color{cvred}}
+        {Software development for the technical support service. \newline
+        \scriptsize Integration with internal platforms and hardware to homogenise the calibration and follow-up process of products sold by the company.
+        }{img/chauvin-arnoux.png} \\
+    \end{tabular}
+    
+\vspace{0.5cm}
+% \vspace{-0.1cm}
+
+\begin{minipage}[t]{0.3\textwidth}
+    \section*{Certificates \& Grants}
+        \begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.55\textwidth}}
+            2019 & TOEIC (965/990 points)                                     \\
+            %TODO: other boulder dash things done for doctoral school
+        \end{tabular}
+    \section*{Languages}
+        \begin{tabular}{lc | ll}
+            \footnotesize \textbf{French}   & \worldflag[width=3mm]{FR} & C2 & {\phantom{x}\scriptsize Mother tongue}                    \\
+            \footnotesize \textbf{English}  & \worldflag[width=3mm]{GB} & C1 & \pictofraction{\faCircle}{cvgreen}{3}{black!30}{1}{\tiny} \\
+            \footnotesize \textbf{Japanese} & \worldflag[width=3mm]{JP} & C1 & \pictofraction{\faCircle}{cvgreen}{3}{black!30}{1}{\tiny} \\
+            \footnotesize \textbf{German}   & \worldflag[width=3mm]{DE} & A2 & \pictofraction{\faCircle}{cvgreen}{1}{black!30}{3}{\tiny} \\
+        \end{tabular}
+    \bigskip
+\bigskip
+\end{minipage}
+% \hfill % Don't add a space afterwards
+\begin{minipage}[t]{0.4\textwidth}
+    \section*{Publications}
+        \begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.7\textwidth}}
+            2025 & \emph{\textit{<Embargoed publication>}} \\
+            2024 & \emph{\textit{Expressive Direct Volume Rendering for medical image visualisation: application to ultrasound imaging} (PhD Thesis)} \\
+            2022 & \emph{Ray-casted surfaces for expressive direct volume rendering of volumetric ultrasound data}, JFIG 2022.      \\
+        \end{tabular}
+    \bigskip
+\end{minipage}
+
+% \vfill{0.1cm}
+
+% The following is required to have the left column paint in grey all the way down
+\setlength{\parindent}{0pt}
+\vspace{0.7cm}
+
+\end{paracol}
+
+\end{document}
