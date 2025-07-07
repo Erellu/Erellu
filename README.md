@@ -4,8 +4,10 @@
 
 I work in computer graphics on medical data visualisation.
 
-| Topics | Languages |
-|--------|------------|
+[Are you looking for my CV?](cv/CV_English.pdf)
+
+| Topics                                                                                                                                                            | Languages                                                                                            |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
 | ![Erellu's github stats](https://github-readme-stats.vercel.app/api?username=Erellu&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true) | ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Erellu&theme=tokyonight) |
 
 ### Repository highlight
@@ -17,6 +19,9 @@ I work in computer graphics on medical data visualisation.
 ### Contact
 
 `erwanduhamel[__at-sign__]outlook[**__dot__**]com`
+
+See also: [the additional contact information on my CV](cv/CV_English.pdf).
+
 
 ### About me
 
